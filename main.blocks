@@ -1,0 +1,375 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="QWno5Li{0#T~#j!-HRD#">Player</variable><variable type="KIND_SpriteKind" id="y-pGmwm9iEM2%rLp?`qq">Projectile</variable><variable type="KIND_SpriteKind" id="x=`S],0cWj[M.n{`h2TA">Food</variable><variable type="KIND_SpriteKind" id=")BI+6qAjV/Gdysr^v([5">Enemy</variable><variable type="KIND_SpriteKind" id="/pD|)H0]x5omE00BPHFM">Text</variable><variable type="KIND_StatusBarKind" id="6x7I27s7G/.!6@]9]~e{">Health</variable><variable type="KIND_StatusBarKind" id="(7WsWQ2_Z`X~khFxgiSW">Energy</variable><variable type="KIND_StatusBarKind" id="}.M!Ffs~`~d}(1DNsGfg">Magic</variable><variable type="KIND_StatusBarKind" id="7[W%XT*;H)NMNkvHfBUS">EnemyHealth</variable><variable id="1NB:vD0,m1aVHP4,Tut7">myCounter</variable><variable id="SE6M|K9p%bSW04rWZI-5">mySprite</variable><variable id="hYex_XpKEnnc#ja-wy,v">myMinimap</variable><variable id="|,JXR3dq:cSG,@r`5)Fk">statusbar</variable><variable id="AJFUA)8%d5D5c,Bei~9l">Friendlevel</variable><variable id="432?PPw,SYHaA}%N?)+t">Chap1Joke</variable></variables><block type="function_definition" id="~YpSxySu45^#gifp4)3s" x="1870" y="-2930"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation><field name="function_name">2</field><statement name="STACK"><block type="music_stop_all_sounds" id="bFhBNn,E_;g.#[%x6%R7"><next><block type="music_playable_play" id="yDQfViOUu;LI01*TYk+x"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_song_field_editor" id="uy4h|63VfVBY8yLZGxJ%"><field name="song">hex`0064000408040100001c00010a006400f4016400000400000000000000000000000000050000046c0004000800012008000c00012510001400012414001800012718001c00011e24002800012028002c00012430003400012034003800012944004800012048004c00012550005400012454005800012758005c00011e64006800012068006c00012470007400012074007800012c`</field><data>{"commentRefs":[],"fieldData":{"song":"uy4h|63VfVBY8yLZGxJ%"}}</data></shadow></value><next><block type="variables_set" id="FYWr`C~D9[5S,dqmv9d9"><field name="VAR" id="AJFUA)8%d5D5c,Bei~9l">Friendlevel</field><value name="VALUE"><shadow type="math_number" id=",XH3Rl4[Wg@Rm*W_*`6{"><field name="NUM">0</field></shadow></value><next><block type="adv_add_to_text_log" id="LAtj(=7Y*]b1P.qgO?ma"><value name="text"><shadow type="text" id="o(f/14C3ncH(n3pPh!Rh"><field name="TEXT">Chapter 2- The Wizard's Apprentice</field></shadow></value><next><block type="adv_add_image_to_text_log" id="MLr9_^_AM?ZxzZ=wX2k)"><value name="image"><shadow type="screen_image_picker" id="zow|whzGl1F+$u:s1#H-"><field name="img">img`
+. . . . . . . c . . . . . . . . 
+. . . . . . c c c . . . . . . . 
+. . . . . c c c c c . . . . . . 
+. . . . c c c c c c c . . . . . 
+. . . c c c c c c c c c . . . . 
+. . c c c c c c c c c c c . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d d d d 5 d d d . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d d 5 d d d d d . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d d e e e d d d . . . . 
+. . . d d d f e e d d d . . . . 
+. . . d d d e e e d d d . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"zow|whzGl1F+$u:s1#H-"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="9;8ez;En]dig[C{l.!YK"><value name="text"><shadow type="text" id="v!2!ms-Mav+T!W)QS`kj"><field name="TEXT">"Axel?"</field></shadow></value><next><block type="adv_add_to_text_log" id=":dg-O9[WW}D85=._;e33"><value name="text"><shadow type="text" id="PaZS?2=fv*7-2$o)0VU]"><field name="TEXT">"Axel, wake up..."</field></shadow></value><next><block type="adv_add_to_text_log" id="M?Wc=kja4m]!EDGMXVx^"><value name="text"><shadow type="text" id="f?xv9R;31naQ./(lE=1E"><field name="TEXT">A young woman and a wizard stand over Axel, who is lying on his back, saved</field></shadow></value><next><block type="adv_add_image_to_text_log" id="`}QbPw)72v@bY!{}w8EX"><value name="image"><shadow type="screen_image_picker" id="%r6EJ3a~7alpdC@Q4ab1"><field name="img">img`
+. . . . . f f 4 4 f f . . . . . 
+. . . . f 5 4 5 5 4 5 f . . . . 
+. . . f e 4 5 5 5 5 4 e f . . . 
+. . f b 3 e 4 4 4 4 e 3 b f . . 
+. . f 3 3 3 3 3 3 3 3 3 3 f . . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f 3 3 f f e e e e f f 3 3 f . 
+. f b b f b f e e f b f b b f . 
+. f b b e 1 f 4 4 f 1 e b b f . 
+f f b b f 4 4 4 4 4 4 f b b f f 
+f b b f f f e e e e f f f b b f 
+. f e e f b d d d d b f e e f . 
+. . e 4 c d d d d d d c 4 e . . 
+. . e f b d b d b d b b f e . . 
+. . . f f 1 d 1 d 1 d f f . . . 
+. . . . . f f b b f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"%r6EJ3a~7alpdC@Q4ab1"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="AoG%pHfYXc1D,/aBp]%b"><value name="text"><shadow type="text" id="izl,.RcY(bXz.?39`*]$"><field name="TEXT">"Hello, I'm Rose."</field></shadow></value><next><block type="adv_add_to_text_log" id="|m3iTl-_FbymdF$xct8@"><value name="text"><shadow type="text" id="M$?FI4(edJGQw?5(1tU:"><field name="TEXT">Press (a) to shake her hand or press (b) to not</field></shadow></value><next><block type="pxt_pause_until" id="(p=+jWx^@3lOkl:jpK@R"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="nJWRzl8,(A6?6#+%NK`w"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id=";^A:hK/1N%1gP;w*txBI"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="gNrpNDorPn+T6^-J!QI="><field name="button">controller.A</field></block></value><statement name="DO0"><block type="variables_change" id="vKhSX2^5|f*X*zI7pj~v"><field name="VAR" id="AJFUA)8%d5D5c,Bei~9l">Friendlevel</field><value name="VALUE"><shadow type="math_number" id="D.J2`}6aCFDGTg6SnBb,"><field name="NUM">10</field></shadow></value><next><block type="adv_add_to_text_log" id="UpLVG)n7Bu[h}C5-zX5|"><value name="text"><shadow type="text" id="JI-dv8@Y?KibH[[5VRZb"><field name="TEXT">"Pleased to meet you," says Axel kindly</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="variables_change" id="#).%yvgN{JT(F)Bn;PEB"><field name="VAR" id="AJFUA)8%d5D5c,Bei~9l">Friendlevel</field><value name="VALUE"><shadow type="math_number" id="S`jthCrb(PkT/h0JZky{"><field name="NUM">-10</field></shadow></value><next><block type="adv_add_to_text_log" id="TfkJ5h?}n8a$/^MaJ,Ms"><value name="text"><shadow type="text" id="jv8ne;4D6QRbOdver{/`"><field name="TEXT">Axel does not shake her hand</field></shadow></value></block></next></block></statement><next><block type="adv_add_image_to_text_log" id="P:KN^lM[zc$Wdt,.ozq("><value name="image"><shadow type="screen_image_picker" id="9^Gbq:@%.tFhzumEw5+c"><field name="img">img`
+. . . . . . . c c c . . . . . . 
+. . . . . . c b 5 c . . . . . . 
+. . . . c c c 5 5 c c c . . . . 
+. . c c b c 5 5 5 5 c c c c . . 
+. c b b 5 b 5 5 5 5 b 5 b b c . 
+. c b 5 5 b b 5 5 b b 5 5 b c . 
+. . c 5 5 5 b b b b 5 5 5 c . . 
+. . . f 5 5 5 5 5 5 5 5 f . . . 
+. . . f f b f e e f b f f . . . 
+. . . f f 1 f b b f 1 f f . . . 
+. . . e f b b b b b b f e . . . 
+. . . e e e e e e e e e e . . . 
+. . e b c b 5 b b 5 b f b e . . 
+. . e e f 5 5 5 5 5 5 f e e . . 
+. . . . c b 5 5 5 5 b c . . . . 
+. . . . . f f f f f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"9^Gbq:@%.tFhzumEw5+c"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="Un8IFTaLjUa~2yBNhEkn"><value name="text"><shadow type="text" id="%^00*}d%^Qu.n7rzy#we"><field name="TEXT">"Good day to you," says the eccentric wizard.</field></shadow></value><next><block type="adv_add_to_text_log" id="9grR-:{~]x5y|CCK!1lN"><value name="text"><shadow type="text" id="T5P!DU|+kHqxflJa08pM"><field name="TEXT">"My name is Wi Zard"</field></shadow></value><next><block type="controls_if" id="99@lNn^Bk_{3,PWT75*L"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=")42`+4E{LSkX4!q8JUCl"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="KPrQ.zV!#G!8lf?=#l7i"><field name="VAR" id="AJFUA)8%d5D5c,Bei~9l">Friendlevel</field></block></value><value name="B"><shadow type="math_number" id="46kI(71O}J2ZrJ/o+~sG"><field name="NUM">-10</field></shadow></value></block></value><statement name="DO0"><block type="adv_add_to_text_log" id="RF;wXJB3OS#CA*Ne#vU~"><value name="text"><shadow type="text" id="7kw{vTZU^Nq@)AI6Ds)2"><field name="TEXT">"I can see shaking hands is not your thing."</field></shadow></value></block></statement><statement name="ELSE"><block type="adv_add_to_text_log" id="vW{evM!-V?L3KvM0vrbE"><value name="text"><shadow type="text" id="i}qT,{8d#|ss}n3626Y4"><field name="TEXT">He shakes Axel's hand firmly</field></shadow></value></block></statement><next><block type="adv_add_to_text_log" id="l=HWufDq{1,_,d]%u*@C"><value name="text"><shadow type="text" id="sK_5a1RDs/.gKSERMNC2"><field name="TEXT">"I hear you are on a journey"</field></shadow></value><next><block type="controls_if" id="+:w+r3nyH=#PgWCDyAb["><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="8P,gXg/3o-bd.Y_X/Yqz"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="2P1??Q0UWfO)f:2C*9^+"><field name="VAR" id="432?PPw,SYHaA}%N?)+t">Chap1Joke</field></block></value><value name="B"><shadow type="math_number" id="4Jv*OJ4w2Up7N(qxJQ3W"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="adv_add_to_text_log" id="/gk6y}IDc$hT1:x2wj*b"><value name="text"><shadow type="text" id="/A5bZAiRF}3Bc6*fmdr`"><field name="TEXT">"How do you know?" asked Axel</field></shadow></value><next><block type="adv_add_to_text_log" id="]uSe#`]iwA,v$.{y?5z{"><value name="text"><shadow type="text" id="#647@vf9JiFN(Ggor#qm"><field name="TEXT">"An old friend"</field></shadow></value><next><block type="adv_add_image_to_text_log" id="`A;_$)NtMk7e$O)l8jbA"><value name="image"><shadow type="screen_image_picker" id="TP[.,loF0M=^O(QDHAo("><field name="img">img`
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f e d d b b d d e f f 
+f f f e 4 4 4 4 e f f f 
+e 4 f b 1 1 1 1 b f 4 e 
+4 d f 1 1 1 1 1 1 f d 4 
+4 4 f 6 6 6 6 6 6 f 4 4 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"TP[.,loF0M=^O(QDHAo("}}</data></shadow></value></block></next></block></next></block></statement><statement name="ELSE"><block type="adv_add_to_text_log" id="u{dp2KT`r5yRV/o;24Y,"><value name="text"><shadow type="text" id="FQ=_Cg,u!`q+Y2X.sZiL"><field name="TEXT">"That's right" said Axel</field></shadow></value></block></statement><next><block type="adv_add_to_text_log" id="Go$hvtV-iYFot#f3JYt_"><value name="text"><shadow type="text" id="NK2|6C^#hOT*rgghxr#V"><field name="TEXT">"Anyway, Rose, my apprentice wants to start exploring."</field></shadow></value><next><block type="adv_add_to_text_log" id="WMPEr}Sg2(TJ:qLrF9Jj"><value name="text"><shadow type="text" id="{HBo#JfJtE~`F~[n-UBL"><field name="TEXT">"So I thought maybe a fellow adventurer could show her the ropes."</field></shadow></value><next><block type="function_call" id="+ymVvPrM,Slh8duNv-7H"><mutation name="Pleeeeease, Axel" functionid="dtWw*xi%7[r1XSQ5B4)s"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="-8`Ka:`id?WM{sb^W~.[" x="640" y="-1360"><mutation name="Left Tavern Stool Bet" functionid="59!)XSmjOSK/wmK!BOnq"></mutation><field name="function_name">Left Tavern Stool Bet</field><statement name="STACK"><block type="adv_add_to_text_log" id="ml/rEuso0s_RauWVaP2*"><value name="text"><shadow type="text" id="bAbLtBlsHjDzGSY9~O8J"><field name="TEXT">Axel goes and bets 2 coins</field></shadow></value><next><block type="change_score_override" id="74!N1s..(+*p+v2SbO.["><field name="thisKind">adventure.Currency.Coins</field><value name="thisScore"><shadow type="math_number" id="0C7At^ui;Vuo[[.Pp?C^"><field name="NUM">-2</field></shadow></value><next><block type="controls_if" id="be:JWW!h7lN0C~H58x.v"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="QuJ=7p-z!beQ#v6Hib)h"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_random" id="%O?aK%sGppH2Be{Un7`+"><value name="min"><shadow type="math_number" id="T#!g:z;=Y!LTr0s|xSx("><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="qC0eX}v8)!|ybBTGAg_*"><field name="NUM">10</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="Rq{}=DJt9:};351i38vh"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="function_call" id="LZaSu]oE{Z?Tvz}vJ^mp"><mutation name="Left Tavern Stool Bet Fail" functionid="6`E@[0xJ$zK_RlbW#Zr9"></mutation></block></statement><statement name="ELSE"><block type="function_call" id="bvPN,XAAu*dt^9KFBuDz"><mutation name="Left Tavern Stool Bet Success" functionid="XnL*P8R4n;)I5i?2Sk:}"></mutation></block></statement></block></next></block></next></block></statement></block><block type="function_definition" id="7?))dGG/rRG1n,`{!m$$" x="-330" y="-1290"><mutation name="Left Tavern Stool" functionid="F5am.S]A4:4Yeg:UiKz:"></mutation><field name="function_name">Left Tavern Stool</field><statement name="STACK"><block type="adv_add_image_to_text_log" id="VX{(uvlMlAjp2AP-%P=O"><value name="image"><shadow type="screen_image_picker" id="R}xl$^6wH!yXTGtp@Ts~"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . . f 2 f e e e e f f . . . 
+. . . f 2 2 2 f e e e e f f . . 
+. . . f e e e e f f e e e f . . 
+. . f e 2 2 2 2 e e f f f f . . 
+. . f 2 e f f f f 2 2 2 e f . . 
+. . f f f e e e f f f f f f f . 
+. . f e e 4 4 f b e 4 4 e f f . 
+. . . f e d d f 1 4 d 4 e e f . 
+. . . . f d d d e e e e e f . . 
+. . . . f e 4 e d d 4 f . . . . 
+. . . . f 2 2 e d d e f . . . . 
+. . . f f 5 5 f e e f f f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . f f f . . . f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"R}xl$^6wH!yXTGtp@Ts~"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="5C~;0u[3!l.a($X:6*od"><value name="text"><shadow type="text" id="tRsYCdTUqDO@]$a,f-_/"><field name="TEXT">He sits down on the stool and orders a pint of mead</field></shadow></value><next><block type="change_score_override" id="]cx2!JMjz1T,H6@=8`py"><field name="thisKind">adventure.Currency.Coins</field><value name="thisScore"><shadow type="math_number" id="w{f*}?L~JS@?E66ERV[k"><field name="NUM">-2</field></shadow></value><next><block type="adv_add_to_text_log" id="hRW[]5WHA36{Fi^~$yOx"><value name="text"><shadow type="text" id="t2}0I~,|QxeL{yEHEn:B"><field name="TEXT">that cost 2 coins</field></shadow></value><next><block type="adv_add_to_text_log" id="-{O;+PJf~PtuLhM_){T5"><value name="text"><shadow type="text" id="|TRqNMl|*n504{LQY)dg"><field name="TEXT">...</field></shadow></value><next><block type="adv_add_to_text_log" id="DX#.GJEs[CJgCPW,e%1f"><value name="text"><shadow type="text" id="g4k{w#E+-qpUs;c0jm7="><field name="TEXT">Axel spies an arm wrestling competition </field></shadow></value><next><block type="adv_add_to_text_log" id="z7l3u+-cWDz7]G!7=`7K"><value name="text"><shadow type="text" id="mgSy?.m1]MGS(L^5=_uz"><field name="TEXT">There is also a betting station</field></shadow></value><next><block type="adv_add_to_text_log" id="Uz$`a90GSNL-%bzPI$lh"><value name="text"><shadow type="text" id="]o?.~9:p66E9E+++*A*6"><field name="TEXT">press (a) to bet or press (b) to arm wrestle</field></shadow></value><next><block type="pxt_pause_until" id=":jY42/n:|67I6OC`7XPq"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="YANN@B.w0zLvJ^QybJ??"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id=")uAkGUedr)M12LoM!C=N"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="0tV?@F1-$cc/E^GY${DW"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="function_call" id="BP?1]Tl9DA,GC}*02}_b"><mutation name="Left Tavern Stool Bet" functionid="59!)XSmjOSK/wmK!BOnq"></mutation></block></statement><statement name="ELSE"><block type="function_call" id="cM)N@M)~C)oercJe0PAf"><mutation name="Left Tavern Stool Arm wrestle" functionid="HxV/Bi(+y{7aQw|%S:jd"></mutation></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="b)BM+Y}Itio@(jh8z2^w" x="1330" y="-1110"><mutation name="Left Tavern Stool Bet Success" functionid="XnL*P8R4n;)I5i?2Sk:}"></mutation><field name="function_name">Left Tavern Stool Bet Success</field><statement name="STACK"><block type="change_score_override" id="d?U74mLu1[.fV=@vAbl7"><field name="thisKind">adventure.Currency.Coins</field><value name="thisScore"><shadow type="math_number" id="%WkHlM{.NJZ4]1RvVky6"><field name="NUM">4</field></shadow></value><next><block type="adv_add_to_text_log" id="b+s)W0CN:nLeXEQ0--ZP"><value name="text"><shadow type="text" id=")vIKdZm4$_lquse%**e="><field name="TEXT">"YES!!!"</field></shadow></value><next><block type="adv_add_to_text_log" id="S~c26dx}m;,Xdn507j+O"><value name="text"><shadow type="text" id="Ttv,0xeikTRuYF2G$R74"><field name="TEXT">"I WIN"</field></shadow></value><next><block type="adv_add_to_text_log" id="m|1Cr~RaY{I:u1m6P`o/"><value name="text"><shadow type="text" id="48chkY2^LU7zRXCxa~s~"><field name="TEXT">Axel screamed</field></shadow></value><next><block type="adv_add_to_text_log" id="sYdh66?|va}Xe#3vm:lr"><value name="text"><shadow type="text" id="q}=2~qv{:L4Y=+aTUJeJ"><field name="TEXT">He then fell down asleep</field></shadow></value><next><block type="function_call" id="aTa/6*w;loKQ{~u630nn"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="f`c|wC~_e@tkBbcED{4s" x="410" y="-910"><mutation name="Left Tavern Stool Bet Fail" functionid="6`E@[0xJ$zK_RlbW#Zr9"></mutation><field name="function_name">Left Tavern Stool Bet Fail</field><statement name="STACK"><block type="adv_add_to_text_log" id=")TCa/dV:AdPFs|bh_jI@"><value name="text"><shadow type="text" id="rZ?G_}gvzItY8!m{5VHo"><field name="TEXT">The bet failed</field></shadow></value><next><block type="adv_add_to_text_log" id="D{+r{]g#Ex5o~]{M0CaI"><value name="text"><shadow type="text" id="PC[{eIu~4``{Hci~C04;"><field name="TEXT">Axel gets angry</field></shadow></value><next><block type="adv_add_to_text_log" id="E!n^7x?C)wM)Lf#Tk(P,"><value name="text"><shadow type="text" id="jx[wc#/c1?:G5O6n,z@."><field name="TEXT">He flips a table and the bartender tries to stop him</field></shadow></value><next><block type="adv_add_to_text_log" id="{s*Ng,gWw%aM?TU~/b{0"><value name="text"><shadow type="text" id="@YnCENJ4M$h$B)lEP#,U"><field name="TEXT">...</field></shadow></value><next><block type="adv_add_to_text_log" id="NV/U=!EYh?|Av`|JZ}%l"><value name="text"><shadow type="text" id="lF:[S;pNim#_CdCWfIq6"><field name="TEXT">Axel prepared for a dust up</field></shadow></value><next><block type="adv_add_to_text_log" id="%,::-n^@_c/1,f%-dZ26"><value name="text"><shadow type="text" id="#EJ%A5GNhRZ#9a2_uEw."><field name="TEXT">Axel reaches for a punch</field></shadow></value><next><block type="adv_add_to_text_log" id="zd~x26uhuFjh6rcl1MtP"><value name="text"><shadow type="text" id="iQG:I5!olD)eiXN$~_@b"><field name="TEXT">But it missed</field></shadow></value><next><block type="adv_add_to_text_log" id=")y|zP0PB9A;cYEgEOvKo"><value name="text"><shadow type="text" id="C`zzV`w[+|ER,FlFs8x:"><field name="TEXT">The bartender punches Axel</field></shadow></value><next><block type="adv_add_to_text_log" id="E^S+6$H97_uk96)X}u(y"><value name="text"><shadow type="text" id="M:y7Zlp{;X9V%P]k_hy@"><field name="TEXT">Crit-Hit</field></shadow></value><next><block type="adv_add_to_text_log" id="3PY)a:uRh`yTRffIRx$g"><value name="text"><shadow type="text" id="10eD@.iVBf]Wu-WvdGsf"><field name="TEXT">Axel falls to the ground, out like a light</field></shadow></value><next><block type="function_call" id="l8czoKyLOnB3Q!5$WaP,"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="H)?;Ou`]#0:W028+_(hL" x="1930" y="-850"><mutation name="Pleeeeease, Axel" functionid="dtWw*xi%7[r1XSQ5B4)s"></mutation><field name="function_name">Pleeeeease, Axel</field><statement name="STACK"><block type="adv_add_image_to_text_log" id="{e{gMzt`sYi{~J|K7nX9"><value name="image"><shadow type="screen_image_picker" id=",;GN/g0S.?6Wb6%xVT2O"><field name="img">img`
+. . . . . f f 4 4 f f . . . . . 
+. . . . f 5 4 5 5 4 5 f . . . . 
+. . . f e 4 5 5 5 5 4 e f . . . 
+. . f b 3 e 4 4 4 4 e 3 b f . . 
+. . f 3 3 3 3 3 3 3 3 3 3 f . . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f 3 3 f f e e e e f f 3 3 f . 
+. f b b f b f e e f b f b b f . 
+. f b b e 1 f 4 4 f 1 e b b f . 
+f f b b f 4 4 4 4 4 4 f b b f f 
+f b b f f f e e e e f f f b b f 
+. f e e f b d d d d b f e e f . 
+. . e 4 c d d d d d d c 4 e . . 
+. . e f b d b d b d b b f e . . 
+. . . f f 1 d 1 d 1 d f f . . . 
+. . . . . f f b b f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":",;GN/g0S.?6Wb6%xVT2O"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="w}K@9JGj79a{,}o8j/L7"><value name="text"><shadow type="text" id="/EpL!B%Q?`3v-(crBtuY"><field name="TEXT">"That's a great idea, Wi"</field></shadow></value><next><block type="function_call" id="-v?LemJ%F5uM3q25m6+l"><mutation name="Pleeeeeeeeeeeeeeeeeeeeease, Axel" functionid="}2~~p^MQxT|u%u@|xi,Z"></mutation></block></next></block></next></block></statement></block><block type="function_definition" id="Mc,yTySAfaJKnh@~P8*R" x="-1230" y="-550"><mutation name="Left tavern corner" functionid="Iim$WoV!w7aQ7NmM.-q6"></mutation><field name="function_name">Left tavern corner</field><statement name="STACK"><block type="adv_add_to_text_log" id="g]3rN.choBKlY`@Zz^u("><value name="text"><shadow type="text" id="G_U~[A[f!?:/aHU4zOSu"><field name="TEXT">Axel sits down and time starts to pass</field></shadow></value><next><block type="music_stop_all_sounds" id="72*CkrvL4#`nny4.Mqcd"><next><block type="music_playable_play" id="37)X,YSEjH*CL[JSPqcy"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_string_playable" id="Gt9SrRU*X|C*{cO*z.T6"><value name="melody"><shadow type="melody_editor" id="{0i.*T10stL5``9#QzJ#"><field name="melody">"C D G D C D G D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="9RBO`r/W*,|2qMstN#tS"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">100</field></shadow></value></shadow></value><next><block type="adv_add_to_text_log" id="=[rK2](a}dwHNrcLnL8*"><value name="text"><shadow type="text" id="dX`5SgC!%3Pvc1.!!fE|"><field name="TEXT">...</field></shadow></value><next><block type="adv_add_to_text_log" id="n|i=)5@Y;9ZG_5K,qV4t"><value name="text"><shadow type="text" id="nlY]s$*h#EHW^F5!gb6="><field name="TEXT">...</field></shadow></value><next><block type="adv_add_to_text_log" id="7t}IeXp]aqG.%C+QXY1J"><value name="text"><shadow type="text" id="^Sd/TjSwl?j=eNxPlT(V"><field name="TEXT">...</field></shadow></value><next><block type="function_call" id="rc.;jnZ]AgXyY6qGO:B]"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id=":u/vQ:gB_A.@17l7maoc" x="1130" y="-610"><mutation name="Left Tavern Stool Arm wrestle" functionid="HxV/Bi(+y{7aQw|%S:jd"></mutation><field name="function_name">Left Tavern Stool Arm wrestle</field><statement name="STACK"><block type="adv_add_to_text_log" id="k#ZH?GUm@_MhUCb3`(Zd"><value name="text"><shadow type="text" id="d;7`g9hm_^*G?nqUg-kJ"><field name="TEXT">Axel puts his arm up on the table and gets ready for his opponent</field></shadow></value><next><block type="controls_if" id="l0s|y4)qUubuSfWVZX72"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="VlNJiqcgn*b53?|x67rt"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_random" id="C`h?e~_@z4azc5/DJcEM"><value name="min"><shadow type="math_number" id="UBBXRpTc@wp~`yVvm+T+"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="!v*CGoXwpV~#tETkh)CG"><field name="NUM">10</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="NikbRT485#1IU=3x[{#s"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="adv_add_to_text_log" id="QACt~lh)p-d}=Vv7J1$!"><value name="text"><shadow type="text" id="8`(ju;fZV$hSned?cWNE"><field name="TEXT">The opponent Goliath absolutely destroys him </field></shadow></value><next><block type="adv_add_to_text_log" id="@f8spO]CwE+dZN~y8h_C"><value name="text"><shadow type="text" id="ql:qqcgpvv19n2Tz:BU!"><field name="TEXT">Axel feels bad and falls asleep due to lack of rest</field></shadow></value><next><block type="function_call" id="8AaA{/]62onE@lvP~Chf"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></statement><statement name="ELSE"><block type="adv_add_to_text_log" id="vOT]Za0bQs77^JI.U?ce"><value name="text"><shadow type="text" id="GC3+aY:BZ8;@u`+VuMt{"><field name="TEXT">Good news for Axel</field></shadow></value><next><block type="adv_add_to_text_log" id="-?;?suF65p7bVsKTtsT~"><value name="text"><shadow type="text" id="LO?=UnL?c(!y)O-6mB.H"><field name="TEXT">His opponent is a flimsy dragonborn and he easily wins</field></shadow></value><next><block type="adv_add_to_text_log" id="di,#)X{O+%nV[x6v.ttQ"><value name="text"><shadow type="text" id="YoHS8Muqe[g{|7@HHv7?"><field name="TEXT">Unfortunately he falls asleep due to lack of rest</field></shadow></value><next><block type="function_call" id="+3]vCW^OFVI3Bh#rx7|5"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></next></block></statement></block></next></block></statement></block><block type="function_definition" id="O6S%r,v`wJW#DQ5v|Z5/" x="-490" y="-470"><mutation name="Left Tavern" functionid="2iMWAn~6DcW^32x[Wvk)"></mutation><field name="function_name">Left Tavern</field><statement name="STACK"><block type="music_stop_all_sounds" id="ketnng.pZga7%]%]05ID"><next><block type="adv_add_image_to_text_log" id="Rg_),pP-iWeZ~gbZoE{t"><value name="image"><shadow type="screen_image_picker" id="D+-hfrf!.w):7bx%ud2^"><field name="img">img`
+. . . . . b e e e e b . . . . . 
+. . . . . b e e e e b . . . . . 
+. . . . . b e e e e b . . . . . 
+. . . . . b b b b b b . . . . . 
+. . . . . . b c c b . . . . . . 
+. . . . b b b c c b b b . . . . 
+. . . . b c c c c c c b . . . . 
+. . . . b c c c c c c b . . . . 
+. . . . d d d d d d d d . . . . 
+. . . . d f f d d f d d . . . . 
+. . . . d f d f d f f d . . . . 
+. . . . d d d d d d d d . . . . 
+. . . . b c c c c c c b . . . . 
+. . . . b c c c c c c b . . . . 
+. . . . b c c c c c c b . . . . 
+. . . . b b b b b b b b . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"D+-hfrf!.w):7bx%ud2^"}}</data></shadow></value><next><block type="music_playable_play" id="R;/~So}QTpXn_]K@wFpT"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_song_field_editor" id="mUs$REdgosOx@^5FCLb{"><field name="song">assets.song`Tavern`</field><data>{"commentRefs":[],"fieldData":{"song":"mySongs.Vi2$!:Qwz?bnIzi[+HC^"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="N7XtyRb.A5lkAT7Lf.oC"><value name="text"><shadow type="text" id="UOYfOqHn)Tn#e!Xs~E7n"><field name="TEXT">He enter the tavern</field></shadow></value><next><block type="adv_add_to_text_log" id="=DXNi8|GX_6f|NUjV+Z;"><value name="text"><shadow type="text" id="z!1!qhdK6Ux{aldjiv3Z"><field name="TEXT">There is an empty seat in the corner and a free stool at the bar</field></shadow></value><next><block type="adv_add_to_text_log" id="DU9uK|cy)QJL-h:[Nm[E"><value name="text"><shadow type="text" id="JIJ[5gA%yg5)WAlyYg${"><field name="TEXT">Press (a) to sit in the corner or press (b) to take the spot at the bar</field></shadow></value><next><block type="pxt_pause_until" id="*{8!tjY+2c3$d~S7~WYj"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="lzZ/K$^1cHb*.Q^?FpB~"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id="b[_bdwy`sx11r2$AH:W4"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="d6:/ryb64o`3|*F+]1@,"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="function_call" id="$ptXR$+*x@u2bADW{:Bg"><mutation name="Left tavern corner" functionid="Iim$WoV!w7aQ7NmM.-q6"></mutation></block></statement><statement name="ELSE"><block type="function_call" id="MIsWrQP7T$TXp0!?z)g%"><mutation name="Left Tavern Stool" functionid="F5am.S]A4:4Yeg:UiKz:"></mutation></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="nzG$^Nxn{gOMm:dp-@U2" x="2130" y="-570"><mutation name="Exit" functionid="lD:q[l$,G[5FT,zT`rCl"></mutation><field name="function_name">Exit</field><statement name="STACK"><block type="adv_add_image_to_text_log" id="Oa^h8d-f/KJm[$6m~-uu"><value name="image"><shadow type="screen_image_picker" id="1FdG;-A|`Jqo#rmFWNtc"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . f f e e e e f 2 f . . . . 
+. . f f e e e e f 2 2 2 f . . . 
+. . f e e e f f e e e e f . . . 
+. . f f f f e e 2 2 2 2 e f . . 
+. . f e 2 2 2 f f f f e 2 f . . 
+. f f f f f f f e e e f f f . . 
+. f f e 4 4 e b f 4 4 e e f . . 
+. f e e 4 d 4 1 f d d e f . . . 
+. . f e e e e e d d d f . . . . 
+. . . . f 4 d d e 4 e f . . . . 
+. . . . f e d d e 2 2 f . . . . 
+. . . f f f e e f 5 5 f f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . f f . . . f f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"1FdG;-A|`Jqo#rmFWNtc"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="BVQI(cGp|h@hWu*2TDBH"><value name="text"><shadow type="text" id="{vU23Gd2[#62/8,t^kqU"><field name="TEXT">Axel turns to leave</field></shadow></value><next><block type="adv_add_to_text_log" id="@`!wgRprA2v|53hm2x^Z"><value name="text"><shadow type="text" id="CJ9,J,j~Ks[F%z}r3_rm"><field name="TEXT">Rose not far behind</field></shadow></value><next><block type="adv_add_image_to_text_log" id="Yz|dI6yr7]M7t_^!(U|U"><value name="image"><shadow type="screen_image_picker" id="nv{dc%n!4z$|kD,R[^y{"><field name="img">img`
+. . . . . f 1 2 2 1 f . . . . . 
+. . . . f 5 1 2 2 1 5 f . . . . 
+. . . f e 4 1 2 2 1 4 e f . . . 
+. . f b 3 e 1 1 1 1 e 3 b f . . 
+. . f 3 3 3 1 2 2 1 3 3 3 f . . 
+. f 3 3 e b 1 2 2 1 b e 3 3 f . 
+. f 3 3 f f 1 1 1 1 f f 3 3 f . 
+. f b b f b f e e f b f b b f . 
+. f b b e 1 f 4 4 f 1 e b b f . 
+f f b b f 4 4 4 4 4 4 f b b f f 
+f b b f f f e e e e f f f b b f 
+. f e e f b d d d d b f e e f . 
+. . e 4 c d d d d d d c 4 e . . 
+. . e f b d b d b d b b f e . . 
+. . . f f 1 d 1 d 1 d f f . . . 
+. . . . . f f b b f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"nv{dc%n!4z$|kD,R[^y{"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="Xb?WIryu/7@E1T*SDM{/"><value name="text"><shadow type="text" id=")5waQAaT~#j8*p6ocbdy"><field name="TEXT">"Oh, Axel!" said Rose</field></shadow></value><next><block type="adv_add_to_text_log" id="R_w`S;3o|5K[Gawg3?gZ"><value name="text"><shadow type="text" id="z~kRY_Xz}U1`+0yx,F{D"><field name="TEXT">"Did I tell you I'm a bard?"</field></shadow></value><next><block type="adv_add_to_text_log" id="|!T#hzK.og8Czx@840j~"><value name="text"><shadow type="text" id="4qI]e3/)[oKb/cyd2rmb"><field name="TEXT">She runs off for a second</field></shadow></value><next><block type="adv_add_to_text_log" id="wKDso[M-(u.)h-RG84Je"><value name="text"><shadow type="text" id="4*#CU%1cHg7-:UqyXi[Z"><field name="TEXT">Rose returns</field></shadow></value><next><block type="adv_add_image_to_text_log" id="*d(K%9$MdB/wg@RbCcP)"><value name="image"><shadow type="screen_image_picker" id="1u)nzG;XO,11xEp8[caA"><field name="img">img`
+. . . . . f f 6 6 f f . . . . . 
+. . . . f 9 6 9 9 6 9 f . . . . 
+. . . f 8 6 9 9 9 9 6 8 f . . . 
+. . f b 3 8 6 6 6 6 8 3 b f . . 
+. . f 3 3 3 3 3 3 3 3 3 3 f . . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f 3 3 f f e e e e f f 3 3 f . 
+. f b b f b f e e f b f b b f . 
+. f b b e 1 f 4 4 f 1 e b b f . 
+f f b b f 4 4 4 4 4 4 f b b f f 
+f b b f f f f f f f f f f b b f 
+. f e e f e e e e f f f f e f . 
+. . e 4 f e e f e e e e f e . . 
+. . e f f e e e e f f f f e . . 
+. . . f f f f f f f d f f . . . 
+. . . . . f f b b f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"1u)nzG;XO,11xEp8[caA"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="z45@;t/TZl})5w%=:fQW"><value name="text"><shadow type="text" id="eC8#K/}h/z=TpT!%e*^~"><field name="TEXT">She is carrying a ukulele</field></shadow></value><next><block type="adv_add_to_text_log" id="lhC4sb+hq=-9ePf~)XVk"><value name="text"><shadow type="text" id="ujla:aU-yj||+v1D:r94"><field name="TEXT">She strums it kind of tunelessly</field></shadow></value><next><block type="adv_add_to_text_log" id="DuzxTv[#R6K@GnW^^5t}"><value name="text"><shadow type="text" id="Tsf88eZC.;|q%%(M{Ma6"><field name="TEXT"></field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="54kjiXn!j)}M[]g5Ai9W" x="-2100" y="-80"><mutation name="Right Nap" functionid="g`;f6T4mt@e6N4:GP3{`"></mutation><field name="function_name">Right Nap</field><statement name="STACK"><block type="adv_add_to_text_log" id=".iJfZ1B8eaZ5*t5G{wak"><value name="text"><shadow type="text" id="nI*8]7]^2$Pw!bzdIEEu"><field name="TEXT">Axel decides a nap is a good idea and quickly falls asleep</field></shadow></value><next><block type="music_stop_all_sounds" id="2`;5Lic8S@{2YJ^ii52m"><next><block type="music_playable_play" id="Z8z6.OZ1FgIno__I(.*:"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_string_playable" id="6uOYjDGQi.n;$0Cn@8XB"><value name="melody"><shadow type="melody_editor" id="_R4se=^OoD8!7)ivQQ_r"><field name="melody">"C D G D C D G D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id=")yuz~O:RSO31ryW|WxZm"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">100</field></shadow></value></shadow></value><next><block type="adv_add_to_text_log" id="%]:o]^}G387Iym:lje11"><value name="text"><shadow type="text" id="1lMZ![VOd~MBMa*]2o3X"><field name="TEXT">…</field></shadow></value><next><block type="adv_add_to_text_log" id="yTZ-,LuG*c)3*5E)J%Lg"><value name="text"><shadow type="text" id="Ab!X^FOzwM@eHLJ/v47t"><field name="TEXT">…</field></shadow></value><next><block type="adv_add_to_text_log" id="KMr`n7I)w%0qy{:]gT4!"><value name="text"><shadow type="text" id="X@4[~^xOA$OHP3}}]2)C"><field name="TEXT">…</field></shadow></value><next><block type="adv_add_to_text_log" id="Bq;O?-(`hs=$NxY:4@)R"><value name="text"><shadow type="text" id="aA*IH$fti@G=dF7qoqht"><field name="TEXT">7:57pm</field></shadow></value><next><block type="function_call" id="-)f#8`F=EeGQFbISuo#@"><mutation name="Right enemies" functionid="}-,x!@H^O[h22:f-O#/d"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="b#5UL^jkAkvw`^fvRASf" x="-1256" y="-3"><mutation name="Right Awake" functionid="tF`QL,]2`deh`%dma7Zy"></mutation><field name="function_name">Right Awake</field><statement name="STACK"><block type="adv_add_to_text_log" id="/I5rVo4}IZ[kftp:-`Y$"><value name="text"><shadow type="text" id="ae[xqXNd2*k~IEoEmVK*"><field name="TEXT">Axel pushes on through the day</field></shadow></value><next><block type="adv_add_to_text_log" id="ml:nDpW;FOilM}9geq[l"><value name="text"><shadow type="text" id="o9w1b#[qqMP]Q[a_d44R"><field name="TEXT">He sets up camp for the night</field></shadow></value><next><block type="music_playable_play" id=".7_nW7mbo`4.F5_Z,jbU"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_string_playable" id="J`x*faro_%]Ot|_M1-|6"><value name="melody"><shadow type="melody_editor" id="lT{Crp`]VR0suhoq$7hb"><field name="melody">"C D G D C D G D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="12;0PuP}:_k2pw{IdC^["><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">100</field></shadow></value></shadow></value><next><block type="adv_add_to_text_log" id="gns*Pg``cGY(j.rMx:eV"><value name="text"><shadow type="text" id="7Yl?647_QLm=iS+y#eB;"><field name="TEXT">…</field></shadow></value><next><block type="adv_add_to_text_log" id="y9m%jeMA^+[KeGV@39,T"><value name="text"><shadow type="text" id="^!Kw[g}YTO/}PdpIamlo"><field name="TEXT">…</field></shadow></value><next><block type="adv_add_to_text_log" id="wP;w5^T}l4k#x2riF-Gg"><value name="text"><shadow type="text" id="@G?c5|CnKY39~k)4!vPP"><field name="TEXT">…</field></shadow></value><next><block type="adv_add_to_text_log" id=".1T#qPk6bp.r~C6YsL)B"><value name="text"><shadow type="text" id="_vB_A_LK8Hb9r4vcV~fT"><field name="TEXT">7:57am</field></shadow></value><next><block type="function_call" id="N8/hR[iXf/jAn5Hj-[4I"><mutation name="Right enemies" functionid="}-,x!@H^O[h22:f-O#/d"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="ECcY/D9Z;6m!4e!eA8:s" x="0" y="0"><statement name="HANDLER"><block type="gameSplash" id="16bI:4%yx;9%Sv1=:j)b"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="`EF~(y!,wGr1}?TTQW?f"><field name="TEXT">Welcome to TextVenture</field></shadow></value><value name="subtitle"><shadow type="text" id="dxTf1q:#7o]:hv){p8(i"><field name="TEXT"></field></shadow></value><next><block type="gameSplash" id="!J~Le@Up%`;Z}HfQ7{eI"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="Lg~vIbpRyrA?,Oq0Pi46"><field name="TEXT">A Coleonsole original</field></shadow></value><value name="subtitle"><shadow type="text" id="plWE_gKF*3G0:+zoXZe8"><field name="TEXT"></field></shadow></value><next><block type="gameSplash" id="ev?=66#LY(SzE4VM2CK;"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="W*iubR~o1Z(%#GP{Jb|v"><field name="TEXT">Here, you meet Axel</field></shadow></value><value name="subtitle"><shadow type="text" id="K(I8-27{_uoYZ~q/?qlv"><field name="TEXT"></field></shadow></value><next><block type="gameSplash" id=";]+?!{Dw)eb|eHv%i[mO"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="+aVjNB{f)s%$4e#l7+-t"><field name="TEXT">His story is up to you</field></shadow></value><value name="subtitle"><shadow type="text" id="?${q{V(^pjc{Z2OS@1IG"><field name="TEXT"></field></shadow></value><next><block type="function_call" id="(pc_.6Qr{cG;-6X+-!p`"><mutation name="1" functionid="8H2yN2KUGKayno^y]Zr~"></mutation></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="w,_J+{KXY?2T.i{(-~it" x="-930" y="270"><mutation name="left" functionid="rRzw$h;x$J0/7fs-txnR"></mutation><field name="function_name">left</field><statement name="STACK"><block type="adv_add_to_text_log" id="?{eL*GeQ`Akh~bFIi4V,"><value name="text"><shadow type="text" id="6f?)V+uvjW3ruQqm%ks^"><field name="TEXT">Axel looks left and spies a small town in the distance</field></shadow></value><next><block type="adv_add_to_text_log" id="xPL[AnduA!kFn.N/mF=L"><value name="text"><shadow type="text" id="lIK;L`+a-{]lP91_~nNy"><field name="TEXT">He walks into town and sees a well kept tavern Press (a) to enter the tavern or press (b) to explore town</field></shadow></value><next><block type="pxt_pause_until" id="L?NF_ZDlaY=kXsp6Ji6I"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="0#5RHm|-:~1k07yd8mIi"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id="qWeD[{T$VxY;8~x,)eTG"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="r@]C8ZxjvSrAH8/R8J7J"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="function_call" id="21M{~L8tbF(5xX}Cx#|D"><mutation name="Left Tavern" functionid="2iMWAn~6DcW^32x[Wvk)"></mutation></block></statement><statement name="ELSE"><block type="function_call" id=",7sIXsv]5hh]U4vV,uk?"><mutation name="Left Explore" functionid="-IM6eK`Le55VhZYH5W8F"></mutation></block></statement></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="wHXc+w,;E84~Mhpzqa!V" x="550" y="210"><mutation name="1" functionid="8H2yN2KUGKayno^y]Zr~"></mutation><field name="function_name">1</field><statement name="STACK"><block type="music_playable_play" id="Yy-wTgH=Pv$DFn0Rc0Zt"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="(qrg2e-#sXItLE2Nh|sL"><value name="melody"><shadow type="melody_editor" id="tJalKcg0n4a0#JX?rLZt"><field name="melody">"C5 G F G - B - B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="y}$mYAWd@%Rml9pFnLJP"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">190</field></shadow></value></shadow></value><next><block type="adv_add_to_text_log" id="}-x,YX+O%YD-3yZvgO21"><value name="text"><shadow type="text" id="_45Rgf;VZfo~/jM%~4Vn"><field name="TEXT">Chapter 1- Prologue</field></shadow></value><next><block type="adv_add_image_to_text_log" id="`L!.zauRnhPwQsAuDwp*"><value name="image"><shadow type="screen_image_picker" id="k]^AckGyBgk5A:E4a@(A"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f b f 4 4 f b f e f f . 
+. f e e 4 1 f d d f 1 4 e e f . 
+. . f e e d d d d d d e e f . . 
+. . . f e e 4 4 4 4 e e f . . . 
+. . e 4 f 2 2 2 2 2 2 f 4 e . . 
+. . 4 d f 2 2 2 2 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"k]^AckGyBgk5A:E4a@(A"}}</data></shadow></value><next><block type="set_score_override" id="q6v{iU1ZfebwP!3]h:~-"><field name="thisKind">adventure.Currency.Coins</field><value name="thisScore"><shadow type="math_number" id="SqkY#z!ElBQ1/8$::Xzh"><field name="NUM">10</field></shadow></value><next><block type="change_text_log_colors" id="*y%KL-XwRt)C2_4/GaCd"><value name="c1"><shadow type="colorindexpicker" id="-gmD1BMwom:uLh3b6koI"><field name="index">1</field></shadow></value><value name="c2"><shadow type="colorindexpicker" id="0lyCT`WOHg}3$XDGq{%O"><field name="index">9</field></shadow></value><next><block type="adv_add_to_text_log" id="~}D6:#exd^2,(t3.q(p="><value name="text"><shadow type="text" id="qtFnJR}S(Gqk{a|[EUsZ"><field name="TEXT">9:54am</field></shadow></value><next><block type="adv_add_to_text_log" id="(0YYw#n?h(|9gHm4Xc6G"><value name="text"><shadow type="text" id="2@,ab@2N)CA*NpU.,LxT"><field name="TEXT">Behold Axel, a simple traveller...</field></shadow></value><next><block type="adv_add_to_text_log" id="6EDyBxZ2uu)ktdl%yYe#"><value name="text"><shadow type="text" id="FIWXP9%/+Syq~Ogo~WL]"><field name="TEXT">He is as ordinary as can be</field></shadow></value><next><block type="adv_add_to_text_log" id="u9XzVX|p%g@iQa}y((u:"><value name="text"><shadow type="text" id="2~{,KJqMH8`O4M{2]zEp"><field name="TEXT">He comes to a fork in his path</field></shadow></value><next><block type="adv_add_image_to_text_log" id="g0J-F=qQL+,YdR]]XQz*"><value name="image"><shadow type="screen_image_picker" id="SqFD)@nAcUYgX;@l_Zm2"><field name="img">img`
+.eeee..............eeee.
+eeddee............eeddee
+edbbde............edbbde
+edbbdeeeeeeeeeeeeeedbbde
+feddeebbbbbbbbbbbbfeddee
+feeeefbbbbbbbbbbbbfeeeef
+feeeefeebbbbbbbbeefeeeef
+eeddeffeeeeeeeeeeffeddee
+edbbdeffeeeeeeeeffedbbde
+edbbdebbbbbbbbbbbbedbbde
+feddeebbbbbbbbbbbbfeddee
+feeeefeebbbbbbbbeefeeeef
+feeeeffeeeeeeeeeeffeeeef
+eeddeeffeeeeeeeeffeeddee
+edbbdebbbbbbbbbbbbedbbde
+edbbdebbbbbbbbbbbbedbbde
+feddeeeebbbbbbbbeefeddee
+feeeeffeeeeeeeeeeffeeeef
+feeeefffeeeeeeeefffeeeef
+eeddeebbbbbbbbbbbbeeddee
+edbbdebbbbbbbbbbbbedbbde
+edbbdeeebbbbbbbbeeedbbde
+feddeefeeeeeeeeeeffeddee
+feeeefffeeeeeeeefffeeeef
+feeeefbbbbbbbbbbbbfeeeef
+eeddeebbbbbbbbbbbbeeddee
+edbbdeeebbbbbbbbeeedbbde
+edbbdefeeeeeeeeeefedbbde
+feddeeffeeeeeeeefffeddee
+feeeefbbbbbbbbbbbbfeeeef
+feeeefbbbbbbbbbbbbfeeeef
+eeddeeeebbbbbbbbeeeeddee
+edbbdefeeeeeeeeeefedbbde
+edbbdeffeeeeeeeeffedbbde
+feddeebbbbbbbbbbbbfeddee
+feeeefbbbbbbbbbbbbfeeeef
+fbeeefeebbbbbbbbeefbeeef
+fbbffffeeeeeeeeeeffbbfff
+febbbefffffffffffffebbbe
+feefff666666666666feefff
+feeeef666666666666feeeef
+eeeeef............eeeeef
+.eeff..............eeff.
+`</field><data>{"commentRefs":[],"fieldData":{"img":"SqFD)@nAcUYgX;@l_Zm2"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="+2a@Qi^LP,@dHDgSDMj+"><value name="text"><shadow type="text" id="dP:ptotC*5X7B,F{g`%*"><field name="TEXT">Press (a) to go left or press (b) to go right</field></shadow></value><next><block type="pxt_pause_until" id="Zk@zZB+zB_VFf4x+BGFs"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="b`y_:.b9Ss;_1w)0Y8wm"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id="Z]OaRO#BmKda*R`3snoc"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="hf2#rb.)hV]QEiSOW||R"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="function_call" id="Us_Bq{rfq^kznHbr=C3N"><mutation name="left" functionid="rRzw$h;x$J0/7fs-txnR"></mutation></block></statement><statement name="ELSE"><block type="function_call" id="_eT(1CuT!{~o5E5G~;mJ"><mutation name="right" functionid=".LEp@~::rg~GbG.D.qvo"></mutation></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="@~!rJxx8%~pCs4;AC^I^" x="1590" y="170"><mutation name="Pleeeeeeeeeeeeeeeeeeeeease, Axel" functionid="}2~~p^MQxT|u%u@|xi,Z"></mutation><field name="function_name">Pleeeeeeeeeeeeeeeeeeeeease, Axel</field><statement name="STACK"><block type="adv_add_to_text_log" id="u;D*gQBFUcGSbuVooHa~"><value name="text"><shadow type="text" id="tlj)gRs(rmQ}TCc@~IUb"><field name="TEXT">Press (a) to let Rose join your party or press (b) to deny</field></shadow></value><next><block type="pxt_pause_until" id="Q}ooGBceGyI/zi^OnOSj"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="UFS1{uCT^LfQ(8$%Si)b"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id="DIM_ZZ:|dQG@ZcD//F[X"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="CfsBm@?9$W}~w-5Gsfw0"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="adv_add_to_text_log" id="mJdl(7)hjA-.!$ck1~j*"><value name="text"><shadow type="text" id="*7jdt|Ffl9O/nv|Xb@LH"><field name="TEXT">"Yay! Thanks Axel"</field></shadow></value><next><block type="music_playable_play" id="nf:[w!8l7TeSywET9VcZ"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_melody_playable" id="Uwredkmho.Gwm8q!6^j^"><field name="melody">music.magicWand</field></shadow></value><next><block type="gameSplash" id="73n~y`vpw)M*3?B~^69^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="gnZ:@~E*_+{sLo+{0PKK"><field name="TEXT">Rose joined Axel's party</field></shadow></value><value name="subtitle"><shadow type="text" id="vC%/77:0]79PM|Z)dX%r"><field name="TEXT"></field></shadow></value><next><block type="adv_add_image_to_text_log" id="uK/JNMgH+)^J~+B6kWP2"><value name="image"><shadow type="screen_image_picker" id="cvtDQuo|L!$19w/GF2qh"><field name="img">img`
+. . . . . . 1 1 1 1 . . . . . . 
+. . . . . . 1 2 2 1 . . . . . . 
+. . . . c c 1 2 2 1 c c . . . . 
+. . c c b c 1 2 2 1 c c c c . . 
+. c b b 5 b 1 1 1 1 b 5 b b c . 
+. c b 5 5 b 1 2 2 1 b 5 5 b c . 
+. . c 5 5 5 1 2 2 1 5 5 5 c . . 
+. . . f 5 5 1 1 1 1 5 5 f . . . 
+. . . f f b f e e f b f f . . . 
+. . . f f 1 f b b f 1 f f . . . 
+. . . e f b b b b b b f e . . . 
+. . . e e e e e e e e e e . . . 
+. . e b c b 5 b b 5 b f b e . . 
+. . e e f 5 5 5 5 5 5 f e e . . 
+. . . . c b 5 5 5 5 b c . . . . 
+. . . . . f f f f f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"cvtDQuo|L!$19w/GF2qh"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="vofc3_b8@jM1/wMM_LKY"><value name="text"><shadow type="text" id="fsRNtAAPDUQOvWd_qe)?"><field name="TEXT">"Oh my," said Wi</field></shadow></value><next><block type="adv_add_to_text_log" id="ii417F$Mc1.+B3dwhe{-"><value name="text"><shadow type="text" id="eN}Km{1q5qT!X0SK-EAF"><field name="TEXT">"Let me get you Patched up"</field></shadow></value><next><block type="adv_add_to_text_log" id="+/D3-C.lGt8NVmtAF#JX"><value name="text"><shadow type="text" id="9s.3W}$H*}:naprLgGC="><field name="TEXT">"...bit of this...</field></shadow></value><next><block type="adv_add_to_text_log" id="Qo;?bnhzD2UaFLufU8y?"><value name="text"><shadow type="text" id="f~zW~~Fa=}!@3FnWFV#e"><field name="TEXT">...bit of that...</field></shadow></value><next><block type="adv_add_to_text_log" id="8`m|2r(.}a#%LV!umhDH"><value name="text"><shadow type="text" id="G@r~%pvl;pjS6{GPiA^s"><field name="TEXT">Done!"</field></shadow></value><next><block type="adv_add_to_text_log" id="yEU31~IqE@%A1!GYzv:_"><value name="text"><shadow type="text" id="GuAaC5fUvx;zEMq4q|7M"><field name="TEXT">Axel feels raring to go</field></shadow></value><next><block type="adv_add_to_text_log" id="YxbSmK9vs~V#5j3vq^;@"><value name="text"><shadow type="text" id="tnV7Gh-i-Sv?5G5kG1]o"><field name="TEXT">Press (a) to leave</field></shadow></value><next><block type="pxt_pause_until" id="0Mg7F+rGyKoY/+N,Mx7l"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="tc4FlF*zi,C9TXc)/l9o"><field name="button">controller.A</field></block></value><next><block type="function_call" id="s1G14:;FD!8Xzw,D,jF!"><mutation name="Exit" functionid="lD:q[l$,G[5FT,zT`rCl"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="adv_add_to_text_log" id="!kZ*]Q_Mh=NUieH9?TB~"><value name="text"><shadow type="text" id="Jbnka*s}hC.eF^J$]#V_"><field name="TEXT">Rose looks sad, Axel fells an urge to reconsider</field></shadow></value><next><block type="function_call" id="V%G)m*)xWs9R3|XB(?h!"><mutation name="Pleeeeeeeeeeeeeeeeeeeeease, Axel" functionid="}2~~p^MQxT|u%u@|xi,Z"></mutation></block></next></block></statement></block></next></block></next></block></statement></block><block type="function_definition" id="{1.J={_bEw;76.D1XC|C" x="-1710" y="490"><mutation name="Right enemies" functionid="}-,x!@H^O[h22:f-O#/d"></mutation><field name="function_name">Right enemies</field><statement name="STACK"><block type="music_stop_all_sounds" id=":=GuIJI./57Rfy#_Ed8l"><next><block type="music_playable_play" id="eS)VJU_y!*9_A)AGxkA-"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_song_field_editor" id="ui=j%6v8ZG0]f~}^8.,l"><field name="song">assets.song`Monsta`</field><data>{"commentRefs":[],"fieldData":{"song":"mySongs.ZDm~O0N=dx2g($:pUlc`"}}</data></shadow></value><next><block type="adv_add_image_to_text_log" id="}m^~HMSHV%;|U?ws1D^,"><value name="image"><shadow type="screen_image_picker" id="G]Z3T3(a|u{fJe5ynA^K"><field name="img">img`
+........................
+........................
+........................
+........................
+........................
+..........ffff..........
+........ff1111ff........
+.......fb111111bf.......
+.......f11111111f.......
+......fd11111111df......
+....7.fd11111111df......
+...7..fd11111111df......
+...7..fd11111111df......
+...7..fddd1111dddff.....
+...77.fbdbfddfbdbfcf....
+...777fcdcf11fcdcfbf....
+....77fffbdb1bdffcf.....
+....fcb1bcffffff........
+....f1c1c1ffffff........
+....fdfdfdfffff.........
+.....f.f.f..............
+........................
+........................
+........................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"G]Z3T3(a|u{fJe5ynA^K"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="I1]rKExlh^2Kj=nXL+fF"><value name="text"><shadow type="text" id="DH=,O-{vSTO:0e4{IF8K"><field name="TEXT">Enemies surround Axel and stole all his coins.</field></shadow></value><next><block type="change_score_override" id="mA@j(8.X?gI@HP2M4q?S"><field name="thisKind">adventure.Currency.Coins</field><value name="thisScore"><shadow type="math_number" id="n|LRm^%-3~OQ!|OMC]R_"><field name="NUM">-10</field></shadow></value><next><block type="adv_add_to_text_log" id="k9diFfxHI6!?V02Xj1!2"><value name="text"><shadow type="text" id="_ZeS{j=+.43*(S)~SmK%"><field name="TEXT">He has 2 options (a) flight or (b) fight</field></shadow></value><next><block type="pxt_pause_until" id="{5r8Xk7JD8/)No$VDn**"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="+;07LxYJDY{y2pm{~5+0"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id="fIx|G1_^;6phA[*vyM0~"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="a6e9?B89*/)ZdacG2|DP"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="adv_add_image_to_text_log" id="@mU-ypv5sDt}(I3!Q@ls"><value name="image"><shadow type="screen_image_picker" id="hA(-DiZ.hDIQd7pwyvqp"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f f f 4 4 f f f e f f . 
+. f e e f 1 f d d f 1 f e e f . 
+. . f e f f f d d f f f e f . . 
+. . . f e e 4 f f 4 e e f . . . 
+. . e 4 f 2 2 f f 2 2 f 4 e . . 
+. . 4 d f 2 2 f f 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"hA(-DiZ.hDIQd7pwyvqp"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="fQz*F5=VA!4JRuUZ,11y"><value name="text"><shadow type="text" id="/^jG,[w-$Y0:L@~UA+mH"><field name="TEXT">Axel legs it until an arrow hits him in the back</field></shadow></value><next><block type="function_call" id="0bA`Y.wVH#{NvbL6*dS7"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></statement><statement name="ELSE"><block type="adv_add_image_to_text_log" id="F%?1Cl7~gqM:GJN3XXH^"><value name="image"><shadow type="screen_image_picker" id="g-XoWEkiF?}PoF~Mz`=R"><field name="img">img`
+........................
+....ffffff..............
+..ffeeeef2f.............
+.ffeeeef222f............
+.feeeffeeeef...cc.......
+.ffffee2222ef.cdc.......
+.fe222ffffe2fcddc.......
+fffffffeeeffcddc........
+ffe44ebf44ecddc.........
+fee4d41fddecdc..........
+.feee4dddedccc..........
+..ffee44e4dde...........
+...f222244ee............
+...f2222e2f.............
+...f444455f.............
+....ffffff..............
+.....fff................
+........................
+........................
+........................
+........................
+........................
+........................
+........................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"g-XoWEkiF?}PoF~Mz`=R"}}</data></shadow></value><next><block type="adv_add_to_text_log" id=":_`E1iTfYtxo5CWW;-x."><value name="text"><shadow type="text" id="{E=f;=D!)adP9XoQVU8U"><field name="TEXT">Axel raises his sword to fight but something sharp hits his back</field></shadow></value><next><block type="function_call" id="B5j!y+41Tm_?AOO.Rdwn"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="e9pW`_R=c#;9`;I{rQjd" x="-350" y="470"><mutation name="right" functionid=".LEp@~::rg~GbG.D.qvo"></mutation><field name="function_name">right</field><statement name="STACK"><block type="adv_add_to_text_log" id="{I3VL|SRd!179C7*48*e"><value name="text"><shadow type="text" id="zI6qj=`Ph=dFRI=qfVOu"><field name="TEXT">Axel looks right and sees a nice field</field></shadow></value><next><block type="adv_add_image_to_text_log" id="Lt8%En*)hW:Zbq7/D7jF"><value name="image"><shadow type="screen_image_picker" id="{y]^3;)~Dq*PfSeghH*I"><field name="img">img`
+......cc66......
+.....c6576c.....
+....c677576c....
+....cc677666....
+...cc6c6667cc...
+..6c666777cc6c..
+..c76666766776..
+..c6777777776c..
+..cc67777776cc..
+.c67cc76676676c.
+.c777666667777c.
+.c6777777777766.
+.cc7767776776666
+c676cc6766666776
+c777766666677776
+cc7777777777776c
+.c676777677767c.
+..cc667666766c..
+...ccc6c66ccc...
+.....cccccc.....
+.......ee.......
+......eeee......
+.....eeeeee.....
+.......ee.......
+`</field><data>{"commentRefs":[],"fieldData":{"img":"{y]^3;)~Dq*PfSeghH*I"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="G@;VbjkYmsL1dNGK[Ikk"><value name="text"><shadow type="text" id="~ikTUZJZdBDREHDS}8W:"><field name="TEXT">He spies a tree that looks just perfect for a nap...</field></shadow></value><next><block type="adv_add_to_text_log" id="QB(79*WH~0!@x{nh?0b%"><value name="text"><shadow type="text" id="jHcPk8!+x_LC_OF[;z{{"><field name="TEXT">Press (a) for a cat nap or press (b) to push onward</field></shadow></value><next><block type="pxt_pause_until" id="a3+tIGj2[EnU(r~kdHPW"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="a1iO%SxPp4ve]%At3n_D"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id="jC5`Z0u%B%RjcvJ+t}t0"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="Ws]klX)~eXn_*t^u!#U|"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="function_call" id="~SXLuEB_dyIkCh5m4GjN"><mutation name="Right Nap" functionid="g`;f6T4mt@e6N4:GP3{`"></mutation></block></statement><statement name="ELSE"><block type="function_call" id="g+Pp+9}o~O9,37R|lR}G"><mutation name="Right Awake" functionid="tF`QL,]2`deh`%dma7Zy"></mutation></block></statement></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="^`r;:]LK1e%dE(BOM=~@" x="-710" y="1010"><mutation name="Left Explore" functionid="-IM6eK`Le55VhZYH5W8F"></mutation><field name="function_name">Left Explore</field><statement name="STACK"><block type="adv_add_to_text_log" id="myQjkNhTJN27.T7jjxAD"><value name="text"><shadow type="text" id="3b0u+=Nbv4d@6a]du}^!"><field name="TEXT">Axel walks around town for a bit </field></shadow></value><next><block type="music_playable_play" id="[kMw$bZC:4D,UUAWe?fK"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_string_playable"><value name="melody"><shadow type="melody_editor"><field name="melody">"C D G D C D G D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">100</field></shadow></value></shadow><block type="music_string_playable" id="H6q2sR7wpv?6-_6*@$e7"><value name="melody"><shadow type="melody_editor" id="6[94}@dW9VGyZ$F~9bUw"><field name="melody">"C D G D C D G D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="q8]I3b$Sm;ABJ(m~`uV3"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">100</field></shadow></value></block></value><next><block type="adv_add_to_text_log" id="`qtyJPEosjjmqur$KiAb"><value name="text"><shadow type="text" id="=RC,94yyYkR*=.rzx`!/"><field name="TEXT">...</field></shadow></value><next><block type="adv_add_to_text_log" id="7z7_pTwV}[QUSRxH(fmQ"><value name="text"><shadow type="text" id="q:wRipkA.!%g(@({Z.g?"><field name="TEXT">...</field></shadow></value><next><block type="adv_add_to_text_log" id="v3FPHj{A2#ZUp{Axs`6P"><value name="text"><shadow type="text" id="W}d[lyzsPXU$fh5e/QV@"><field name="TEXT">...</field></shadow></value><next><block type="adv_add_to_text_log" id="ta%,RLb(o%gy})s]G%m6"><value name="text"><shadow type="text" id="(rr8:zL[=x)SiBhGGr3w"><field name="TEXT">8:48pm</field></shadow></value><next><block type="adv_add_image_to_text_log" id="]C7GJFDx]gba2RfsNi)$"><value name="image"><shadow type="screen_image_picker" id="}Ah[onedZ*_M-+Vi_iAJ"><field name="img">img`
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f e d d b b d d e f f 
+f f f e 4 4 4 4 e f f f 
+e 4 f b 1 1 1 1 b f 4 e 
+4 d f 1 1 1 1 1 1 f d 4 
+4 4 f 6 6 6 6 6 6 f 4 4 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"}Ah[onedZ*_M-+Vi_iAJ"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="$RpVoM_a-P1V$:NY0Tth"><value name="text"><shadow type="text" id="?dT~-roO4:N1:CS07=)k"><field name="TEXT">A shady merchant appears</field></shadow></value><next><block type="variables_set" id="N.q3QY=24Md9/0sq0aur"><field name="VAR" id="432?PPw,SYHaA}%N?)+t">Chap1Joke</field><value name="VALUE"><shadow type="math_number" id="QQAb-YAiC[so/oH,G;HP"><field name="NUM">1</field></shadow></value><next><block type="adv_add_to_text_log" id="(n/HiC;6dHu8yA0]yfsB"><value name="text"><shadow type="text" id="tj4}~$9cx]?^orpyMO]q"><field name="TEXT">His face is hidden in shadow</field></shadow></value><next><block type="adv_add_to_text_log" id="m~0=nrQq3[4FT(aEZe0("><value name="text"><shadow type="text" id="JwWQ[tiFZ:beihQ,`M=p"><field name="TEXT">"buy my drinks" he says</field></shadow></value><next><block type="adv_add_to_text_log" id="Ri6@zkVYUPrgR7x#R/e0"><value name="text"><shadow type="text" id="og]nIN%UME8}nkas4EBC"><field name="TEXT">Press (a) to buy one or press (b) to throw something at him</field></shadow></value><next><block type="pxt_pause_until" id="`FWR,/u^u2)}$JB:i#S,"><value name="PREDICATE"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="@^0CMNw]nJwRo:Dm%~,m"><field name="button">controller.anyButton</field></block></value><next><block type="controls_if" id="_g{+-%6ecXeGRx83KRQ8"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="G!Zp|}FY6=UfqZ7#_RSO"><field name="button">controller.A</field></block></value><statement name="DO0"><block type="change_score_override" id="pehc6BYBD1L:kf?fjh+#"><field name="thisKind">adventure.Currency.Coins</field><value name="thisScore"><shadow type="math_number" id="Q%OqH.j={y]vT9Vx2{,Y"><field name="NUM">-1</field></shadow></value><next><block type="adv_add_to_text_log" id="T;~d+h@-mz`*.tnajkL@"><value name="text"><shadow type="text" id="Y?/nyu?H[p!J{^W+p.(Z"><field name="TEXT">Axel drinks</field></shadow></value><next><block type="adv_add_to_text_log" id="9~0Cr9km21tx6taNa0%a"><value name="text"><shadow type="text" id="JJJvKk-%Naqv(ir_69X5"><field name="TEXT">The merchant runs off</field></shadow></value><next><block type="adv_add_to_text_log" id="/zV%!vVU-D6w*.CtDQAd"><value name="text"><shadow type="text" id="O=RH7og]^K7q1ED8_p3z"><field name="TEXT">Axel feels woozy and falls down asleep</field></shadow></value><next><block type="function_call" id="QaWEeKG+SHlKAp86qUVX"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="adv_add_to_text_log" id="2U7[Gf/$beZpFtmZkPL["><value name="text"><shadow type="text" id="a@6Pt?rykn#J*1Qu|x/s"><field name="TEXT">Axel throws a stone at him</field></shadow></value><next><block type="adv_add_image_to_text_log" id="vPjb**@YMxO~G^xnd/pM"><value name="image"><shadow type="screen_image_picker" id="mM@1n9TmmQ;Pxqb,JE4B"><field name="img">img`
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+f f f 2 f f f f 2 f f f 
+f f 2 2 2 f f 2 2 2 f f 
+f f f 2 f f f f 2 f f f 
+f f f f f f f f f f f f 
+f f e d d b b d d e f f 
+f f f e 4 4 4 4 e f f f 
+e 4 f b 1 1 1 1 b f 4 e 
+4 d f 1 1 1 1 1 1 f d 4 
+4 4 f 6 6 6 6 6 6 f 4 4 
+f f f f f f f f f f f f 
+f f f f f f f f f f f f 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"mM@1n9TmmQ;Pxqb,JE4B"}}</data></shadow></value><next><block type="music_playable_play" id="!|pFv+w}TXwa9fV,@32k"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_song_field_editor" id="JcLsYzUL}M}[-*jxtHuy"><field name="song">assets.song`Monsta`</field><data>{"commentRefs":[],"fieldData":{"song":"mySongs.ZDm~O0N=dx2g($:pUlc`"}}</data></shadow></value><next><block type="adv_add_to_text_log" id="=umFR#b}%+h3]a(:8wJ5"><value name="text"><shadow type="text" id="J=+R@PAl{{}L/[6r7B$!"><field name="TEXT">"WHAT?!"</field></shadow></value><next><block type="adv_add_to_text_log" id="A/ff@!J./_=@+xnn{y/8"><value name="text"><shadow type="text" id="^9S!4H1rWTXAUPQB*rd|"><field name="TEXT">Do you think that's acceptable"</field></shadow></value><next><block type="adv_add_to_text_log" id="%Ufr{#gGJdE=V?1AOKa@"><value name="text"><shadow type="text" id=")%t:]J3vgrWr7:P4?}6["><field name="TEXT">"DO YOU THINK THATS ACCEPTABLE?!"</field></shadow></value><next><block type="function_call" id="*[r$1HR+Dl[5{1_UVyYT"><mutation name="2" functionid="`^,T[-Wl7{Ths.=V2YTS"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
