@@ -78,11 +78,13 @@ function left () {
 }
 function Left_Explore () {
     adventure.addToTextlog("Axel walks around town for a bit ")
+    music.stopAllSounds()
     music.play(music.stringPlayable("C D G D C D G D ", 100), music.PlaybackMode.InBackground)
     adventure.addToTextlog("...")
     adventure.addToTextlog("...")
     adventure.addToTextlog("...")
     adventure.addToTextlog("8:48pm")
+    music.play(music.createSong(assets.song`Monsta`), music.PlaybackMode.LoopingInBackground)
     adventure.addImageToTextLog(img`
         f f f f f f f f f f f f 
         f f f f f f f f f f f f 
@@ -133,8 +135,6 @@ function Left_Explore () {
             f f f f f f f f f f f f 
             f f f f f f f f f f f f 
             `)
-        music.stopAllSounds()
-        music.play(music.createSong(assets.song`Monsta`), music.PlaybackMode.LoopingInBackground)
         adventure.addToTextlog("\"WHAT?!\"")
         adventure.addToTextlog("Do you think that's acceptable\"")
         adventure.addToTextlog("\"DO YOU THINK THATS ACCEPTABLE?!\"")
@@ -143,7 +143,7 @@ function Left_Explore () {
 }
 function _2 () {
     music.stopAllSounds()
-    music.play(music.createSong(hex`0064000408040100001c00010a006400f4016400000400000000000000000000000000050000046c0004000800012008000c00012510001400012414001800012718001c00011e24002800012028002c00012430003400012034003800012944004800012048004c00012550005400012454005800012758005c00011e64006800012068006c00012470007400012074007800012c`), music.PlaybackMode.LoopingInBackground)
+    music.play(music.createSong(assets.song`Wii Zard`), music.PlaybackMode.LoopingInBackground)
     Friendlevel = 0
     adventure.addToTextlog("Chapter 2- The Wizard's Apprentice")
     adventure.addImageToTextLog(img`
