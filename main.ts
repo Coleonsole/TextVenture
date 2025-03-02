@@ -133,6 +133,7 @@ function Left_Explore () {
             f f f f f f f f f f f f 
             f f f f f f f f f f f f 
             `)
+        music.stopAllSounds()
         music.play(music.createSong(assets.song`Monsta`), music.PlaybackMode.LoopingInBackground)
         adventure.addToTextlog("\"WHAT?!\"")
         adventure.addToTextlog("Do you think that's acceptable\"")
@@ -521,7 +522,34 @@ function Exit () {
         `)
     adventure.addToTextlog("She is carrying a ukulele")
     adventure.addToTextlog("She strums it kind of tunelessly")
-    adventure.addToTextlog("")
+    adventure.addImageToTextLog(img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . 1 1 1 1 1 1 1 1 . . . . 
+        . . . . 1 . . . . . . 1 . . . . 
+        . . . . 1 . . . . . . 1 . . . . 
+        . . . . 1 . . . . . . 1 . . . . 
+        . . . . 1 . . . . . . 1 . . . . 
+        . . . . 1 . . . 1 1 1 1 . . . . 
+        . . . . 1 . . . 1 . . 1 . . . . 
+        . 1 1 1 1 . . . 1 . . 1 . . . . 
+        . 1 . . 1 . . . 1 1 1 1 . . . . 
+        . 1 . . 1 . . . . . . . . . . . 
+        . 1 1 1 1 . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        `)
+    adventure.addToTextlog("\"How was my playing!\" Rose asks")
+    adventure.addToTextlog("Press (a) to say it was good or press (b) to say it was bad")
+    pauseUntil(() => controller.anyButton.isPressed())
+    if (controller.A.isPressed()) {
+        Friendlevel += 10
+        adventure.addToTextlog("\"It was good!\" said Axel")
+    } else {
+        adventure.addToTextlog("\"I think it could use a bit of work...\" said Axel.")
+        adventure.addToTextlog("\"Oh...\"")
+    }
 }
 function Right_Nap () {
     adventure.addToTextlog("Axel decides a nap is a good idea and quickly falls asleep")
