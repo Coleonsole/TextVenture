@@ -278,7 +278,7 @@ function Right_enemies () {
         ........................
         ........................
         `)
-    adventure.addToTextlog("Enemies surround Axel and stole all his coins.")
+    adventure.addToTextlog("Enemies surround Axel and steal all his coins.")
     adventure.changeScoreOverride(adventure.Currency.Coins, -10)
     adventure.addToTextlog("He has 2 options (a) flight or (b) fight")
     pauseUntil(() => controller.anyButton.isPressed())
@@ -302,6 +302,7 @@ function Right_enemies () {
             . . . . . f f . . f f . . . . . 
             `)
         adventure.addToTextlog("Axel legs it until an arrow hits him in the back")
+        adventure.addToTextlog("Everything goes black...")
         _2()
     } else {
         adventure.addImageToTextLog(img`
@@ -331,6 +332,7 @@ function Right_enemies () {
             ........................
             `)
         adventure.addToTextlog("Axel raises his sword to fight but something sharp hits his back")
+        adventure.addToTextlog("Everything goes black...")
         _2()
     }
 }
@@ -550,6 +552,10 @@ function Exit () {
         adventure.addToTextlog("\"I think it could use a bit of work...\" said Axel.")
         adventure.addToTextlog("\"Oh...\"")
     }
+    music.play(music.stringPlayable("C5 G F G - B A G ", 190), music.PlaybackMode.UntilDone)
+    adventure.addToTextlog("They set off")
+    adventure.addToTextlog("12:33")
+    adventure.addToTextlog("")
 }
 function Right_Nap () {
     adventure.addToTextlog("Axel decides a nap is a good idea and quickly falls asleep")
